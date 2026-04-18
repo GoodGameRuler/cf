@@ -13,7 +13,7 @@ int main() {
         cin >> s;
 
         if(map[s]++) {
-            cout << s << map[s] << endl;
+            cout << s << map[s] - 1 << endl;
             continue;
         }
 
